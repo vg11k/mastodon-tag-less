@@ -9,17 +9,36 @@
     <div id="popup-content">
 	
 		<label for="taglessnumber">Maximum number of hashtags to allow in a Toot :</label>
-		<input type="number" id="taglessnumber" name="taglessnumber"min="0" max="100" size="10">
+		<input type="number" id="taglessnumber" name="taglessnumber" min="0" max="100" size="10">
+		<br/>
 		<button id="popup-valid" type="button">Validate</button>
+		<br/>
 		
 		<label for="name">Add a mastodon url to tag less :</label>
 		<input type="text" id="taglessurl" name="name" required
 		minlength="4" maxlength="8"  size="10">
+		<br/>
 		<button id="popup-add" type="button">Add current url</button>
+		<br/>
 		
-		<label for="popup-table">Current list of mastodon url handled :</label>
-		<table id="popup-table" name="popup-table" width="100%">
-		</table>
+		<div id="table-content">
+			<label for="popup-table">Current list of mastodon url handled :</label>
+			<table id="popup-table" name="popup-table" width="100%">
+				<tr>
+					<td width="70%"><p>foo</p></td><td width="30%"><button>Retirer</button></td>
+				</tr>
+				<tr>
+					<td><p>foo</p></td><td><button>Retirer</button></td>
+				</tr>
+				<tr>
+					<td><p>foo</p></td><td><button>Retirer</button></td>
+				</tr>
+				<tr>
+					<td><p>foo</p></td><td><button>Retirer</button></td>
+				</tr>
+				</tr>
+			</table>
+		</div>
     </div>
 	
     <div id="error-content" class="hidden">

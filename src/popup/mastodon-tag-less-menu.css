@@ -1,16 +1,30 @@
 html,
 body {
   width: 400px;
+  height: 300px;
+  overflow-y: scroll;
 }
 
 .hidden {
   display: none;
 }
 
+#taglessnumber {
+	margin: 3% 145px;
+}
+
+#taglessurl {
+	margin: 3% 10px;
+	width: 350px;
+}
+
+#popup-content {
+	
+}
+
 button {
   border: none;
-  width: 100%;
-  margin: 3% auto;
+  width: 50%;
   padding: 4px;
   text-align: center;
   font-size: 1.5em;
